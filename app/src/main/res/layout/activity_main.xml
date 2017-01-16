@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hujie.mvppra.MainActivity">
+
+    <Button
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:id="@+id/loadData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull" />
+    <Button
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:id="@+id/addData"
+        android:layout_below="@+id/loadData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="drag" />
+</RelativeLayout>
